@@ -1,0 +1,17 @@
+.giphy_translate {
+    padding: 10px;
+    margin: auto;
+}
+.giphy_translate > input {
+    padding: 5px;    
+    margin: 10px;
+}
+.giphy_translate > button {
+    padding: 5px;
+    margin: 10px;
+}
+
+.giphy_translate > img {
+    padding: 10px;
+    margin: 10px;
+}
