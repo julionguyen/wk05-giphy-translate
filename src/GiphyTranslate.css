@@ -1,12 +1,19 @@
 .giphy_translate {
     padding: 10px;
-    margin: auto;
 }
-.giphy_translate > input {
+.giphy_translate .giphy_fieldset {
+    width: fit-content;
+    padding: 10px;
+    margin: 0 auto;
+}
+.giphy_translate .giphy_fieldset > legend {
+    text-align: left;
+}
+.giphy_translate .giphy_fieldset > input {
     padding: 5px;    
     margin: 10px;
 }
-.giphy_translate > button {
+.giphy_translate .giphy_fieldset > button {
     padding: 5px;
     margin: 10px;
 }
@@ -14,4 +21,12 @@
 .giphy_translate > img {
     padding: 10px;
     margin: 10px;
+}
+
+.giphy_translate .gif_preview {
+    display: grid;
+    grid-template-columns: min-content;
+    row-gap: 10px;
+    column-gap: 10px;
+    margin: 10px auto;
 }
